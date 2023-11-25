@@ -1,0 +1,158 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "prueba",
+      "email": "ola",
+      "password": "123",
+      "rol": "docente",
+      "asignatura": "matematicas",
+      "isactive": false
+    },
+    {
+      "id": 3,
+      "username": "123",
+      "password": "1234",
+      "email": "sad",
+      "rol": "alumno",
+      "asignatura": "lenguaje",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "username": "ADASD",
+      "password": "1234",
+      "email": "SDS",
+      "rol": "alumno",
+      "asignatura": "lenguaje",
+      "isactive": true
+    },
+    {
+      "id": 5,
+      "username": "gdfgdfg",
+      "password": "dfgdfgdfg",
+      "email": "nbnbnbnbb",
+      "rol": "alumno",
+      "asignatura": "lenguaje",
+      "isactive": true
+    },
+    {
+      "id": 6,
+      "username": "men",
+      "password": "1234",
+      "email": "fsz",
+      "rol": "docente",
+      "asignatura": "lenguaje",
+      "isactive": true
+    }
+  ],
+  "clases": [
+    {
+      "id": 1,
+      "nombre": "Base de Datos",
+      "docente": "Ausky",
+      "codigo": "base_de_datos",
+      "anio": 2023,
+      "semestre": "4° Semestre",
+      "horasSemanales": 5
+    },
+    {
+      "nombre": "Lenguaje",
+      "codigo": "lenguaje",
+      "docente": "Ausky",
+      "anio": 2023,
+      "semestre": "1° Semestre",
+      "horasSemanales": 4,
+      "id": 2
+    },
+    {
+      "nombre": "Matematicas",
+      "codigo": "matematicas",
+      "docente": "Ausky",
+      "anio": 2024,
+      "semestre": "2° Semestre",
+      "horasSemanales": 3,
+      "id": 3
+    },
+    {
+      "nombre": "ola",
+      "codigo": "ola",
+      "docente": "men",
+      "anio": 1,
+      "semestre": "3",
+      "horasSemanales": 4,
+      "id": 4
+    },
+    {
+      "nombre": "ola",
+      "codigo": "ola",
+      "docente": "men",
+      "anio": 1,
+      "semestre": "3",
+      "horasSemanales": 4,
+      "id": 5
+    },
+    {
+      "nombre": "ola",
+      "codigo": "ola",
+      "docente": "men",
+      "anio": 1,
+      "semestre": "3",
+      "horasSemanales": 4,
+      "id": 6
+    },
+    {
+      "nombre": "3",
+      "codigo": "3",
+      "docente": null,
+      "anio": 4,
+      "semestre": "12",
+      "horasSemanales": 23,
+      "id": 7
+    }
+  ],
+  "codigosQR": [
+    {
+      "nombreDocente": "Ausky",
+      "asignatura": "BASE DE DATOS",
+      "fecha": "viernes, 17 de noviembre de 2023",
+      "id": 1
+    },
+    {
+      "nombreDocente": "Ausky",
+      "asignatura": "MATEMATICAS",
+      "fecha": "viernes, 17 de noviembre de 2023",
+      "id": 2
+    },
+    {
+      "nombreDocente": "Ausky",
+      "asignatura": "LENGUAJE",
+      "fecha": "viernes, 17 de noviembre de 2023",
+      "id": 3
+    },
+    {
+      "nombreDocente": "Ausky",
+      "asignatura": "BASE DE DATOS",
+      "fecha": "viernes, 17 de noviembre de 2023",
+      "id": 4
+    },
+    {
+      "nombreDocente": "men",
+      "asignatura": "OLA",
+      "fecha": "viernes, 24 de noviembre de 2023",
+      "id": 5
+    },
+    {
+      "nombreDocente": "men",
+      "asignatura": "OLA",
+      "fecha": "viernes, 24 de noviembre de 2023",
+      "id": 6
+    },
+    {
+      "nombreDocente": "men",
+      "asignatura": "OLA",
+      "fecha": "viernes, 24 de noviembre de 2023",
+      "id": 7
+    }
+  ]
+}

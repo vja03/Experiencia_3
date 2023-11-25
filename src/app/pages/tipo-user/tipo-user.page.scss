@@ -1,0 +1,30 @@
+
+.boton-centro-alumno{
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40ch;
+   
+    padding-left: 30%;
+}
+
+
+.boton-centro-docente{
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding-left: 30%;
+
+    
+}
+.boton-centro-alumno,
+.boton-centro-docente{
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    flex-direction: column;
+    width: 80%;
+
+}

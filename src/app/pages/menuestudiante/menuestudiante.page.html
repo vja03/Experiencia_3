@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-buttons slot="start">
+        <ion-back-button (click)="cerrarSesion()" text="LogOut" color="primary"></ion-back-button>
+      </ion-buttons>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"></ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card color="primary">
+    <ion-card-header>
+      <ion-card-subtitle>Bienvenido {{ usuarioNombre }}!</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-list>
+    <ion-item *ngFor="let b of barcodes">
+      <ion-label position="stacked">{{ b.format }}</ion-label>
+      <ion-input type="text" [value]="b.rawValue"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="block" class="inicioBotones" name="person" [routerLink]="['/perfil', idPerson]"> Perfil</ion-button>
+  <ion-button expand="block" class="inicioBotones" name="person" (click)="startScan()">
+    Escanear asistencia
+    <ion-icon name="scan"></ion-icon>
+  </ion-button>
+</ion-content>

@@ -1,0 +1,24 @@
+ion-title {
+    color: #3880ff;
+  }
+
+.boton-centro-login{
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton-centro-registr{
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.boton-centro-login,
+.boton-centro-registr{
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+    flex-direction: column;
+    width: 100%;
+
+}
